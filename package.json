@@ -1,0 +1,30 @@
+{
+  "name": "tello-client",
+  "version": "0.0.1",
+  "description": "client for controlling the tello drone",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "npm run --prefix client build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfalk8/tello-client.git"
+  },
+  "keywords": [
+    "tello",
+    "express",
+    "react",
+    "socketio"
+  ],
+  "author": "bfalk8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bfalk8/tello-client/issues"
+  },
+  "homepage": "https://github.com/bfalk8/tello-client#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
