@@ -1,6 +1,6 @@
 import http from 'http';
 import app from './app';
-import { TelloSocket } from './TelloSocket';
+import { TelloSocket } from './socket/TelloSocket';
 
 const port = process.env.PORT || 5000;
 const server = http.createServer(app);

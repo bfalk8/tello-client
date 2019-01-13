@@ -4,7 +4,7 @@ import './App.css';
 import { Observable } from 'rxjs';
 import { hello } from './observables/TelloMessages';
 import { TestSocket } from './components/TestSocket';
-import { TelloCommands } from './components/TelloCommands';
+import { TelloControls } from './components/TelloControls';
 
 interface AppState {
 	msg: string;
@@ -37,7 +37,7 @@ class App extends Component<{}, AppState> {
 					{this.state.msg}
 				</header>
 				<TestSocket />
-        <TelloCommands />
+        <TelloControls />
 			</div>
 		);
 	}
